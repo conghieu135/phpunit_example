@@ -9,7 +9,7 @@
 
         public function testTrueIsTrue()
         {
-            $foo = true;
+            $foo = false;
             $this->assertTrue($foo);
         }
 
