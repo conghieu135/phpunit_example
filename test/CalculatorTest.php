@@ -8,7 +8,9 @@
     class CalculatorTest extends \PHPUnit_Framework_Testcase{
 
         public function testTrueIsTrue()
-        {
+        {  
+            echo "debugger";
+
             $foo = true;
             $this->assertTrue($foo);
         }
