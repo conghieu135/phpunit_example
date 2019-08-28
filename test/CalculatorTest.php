@@ -11,7 +11,6 @@
         {  
             //echo "debugger";
             $foo = false;
-            $foo = true;
             $this->assertTrue($foo);
         }
 
