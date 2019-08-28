@@ -9,6 +9,7 @@
 
         public function testTrueIsTrue()
         {  
+            echo "debugger";
 
             $foo = true;
             $this->assertTrue($foo);
